@@ -3,7 +3,7 @@
 ---------------------------------------------------
 
 
-building a caluculator step by step for learn .js
+building a calculator step by step for learn .js
 
 
 
