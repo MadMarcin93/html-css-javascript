@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/level3.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(20, 23, 96);
+    text-shadow: 2px -2px 3px rgb(254, 254, 254);
+    font-family: "Press Start 2P";
+    margin-top: 60px;
+    opacity: 0.8;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(15, 178, 56);
+    opacity: 1.0;
+    padding: 20px;
+    font-family: "Press Start 2P";
+}
+
+.survey{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(20, 23, 96);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 18px;
+    font-size: 20px;
+    color: rgb(32, 158, 170);
+    padding: 10px;
+    font-family: "Press Start 2P";
+}
+
+input[type='checkbox']{
+    transform: scale(1.5);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+.next{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgb(227, 38, 69);
+    font-family: "Press Start 2P";
+}

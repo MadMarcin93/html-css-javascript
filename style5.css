@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/level5.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgba(193, 37, 29, 0.843);
+    text-shadow: 2px -2px 3px rgb(30, 8, 228);
+    font-family: "Press Start 2P";
+    margin-top: 60px;
+    opacity: 0.7;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(221, 119, 17, 0.578);
+    padding: 20px;
+    font-family: "Press Start 2P";
+}
+
+.survey{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(24, 76, 62);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+textarea{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #6b16163f;
+    font-size: 20px;
+
+}
+
+.next{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgba(221, 119, 17, 0.578);
+    font-family: "Press Start 2P";
+    opacity: 0.7;
+}

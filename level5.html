@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level5</title>
+    <link rel="stylesheet" href="style5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop preload="auto" src="music/song5.mp3" id="myaudio" ></audio>
+    <script>
+      var audio = document.getElementById("myaudio");
+      audio.volume = 0.1;
+    </script>
+    <section>
+        <h1 id="title2">Game Survey</h1>
+       </section>
+       <form action="level6.html">
+        <div class="survey">
+          <h2>Do you have ideas how to improve the survey?</h2>
+          <textarea name="idea" id="idea" placeholder= "Your ideas..."cols="30" rows="10"></textarea>
+          <button 
+          type="submit" 
+          value="text"
+          class="next" 
+          >End Game
+          </button>
+
+        </div>   
+     </form>
+</body>
+</html>

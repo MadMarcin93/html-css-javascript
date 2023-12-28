@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/level1.avif);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.level2bc{
+    background-image: url(img/level2bc.jpg);
+}
+
+h1{
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(34, 21, 36);
+    text-shadow: 2px -2px 3px rgb(126, 253, 66);
+    font-family: "Press Start 2P";
+    margin-top: 60px;
+    opacity: 0.8;
+}
+.survey{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(34, 21, 36);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: rgb(126, 253, 66);
+    opacity: 1.0;
+    padding: 25px;
+    font-family: "Press Start 2P";
+}
+
+.next{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgb(126, 253, 66);
+    font-family: "Press Start 2P";
+}
+
+.personalinfo{
+    border-radius: 15px;
+    background-color: rgb(126, 253, 66);
+    font-size: 15px;
+    font-family: "Press Start 2P";
+}

@@ -1,0 +1,79 @@
+body{
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(img/level2.jpg);
+}
+
+h1{
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(151, 26, 171);
+    text-shadow: 2px -2px 3px rgb(255, 0, 0);
+    font-family: "Press Start 2P";
+    margin-top: 60px;
+    opacity: 0.8;
+}
+.survey{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(34, 21, 36);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(222, 9, 255);
+    opacity: 1.0;
+    padding: 20px;
+    font-family: "Press Start 2P";
+}
+
+.next{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgb(941, 10, 222);
+    font-family: "Press Start 2P";
+}
+
+label{
+    border-radius: 15px;
+    background-color: rgb(941, 10, 222);
+    font-size: 15px;
+    font-family: "Press Start 2P";
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+    padding: 1rem;
+}
+
+input[type='radio']{
+    transform: scale(1.5);
+    margin-bottom: 2px;
+}
+
+#yes{
+    margin-left: 15px;
+}
+
+#no{
+    margin-left: 25px;
+}

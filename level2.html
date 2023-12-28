@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level2</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop preload="auto" 
+    src="music/song2.mp3" id="myaudio" ></audio>
+    <script>
+      var audio = document.getElementById("myaudio");
+      audio.volume = 0.1;
+    </script>
+    <section>
+        <h1 id="title2">Game Survey</h1>
+       </section>
+       <section>
+        <form  
+
+
+        
+         action="level3.html">
+           <div class="survey">
+              <h2>Are you a gamer?</h2>
+             <label for="yes">Yes
+              <input 
+              type="radio" 
+              id="yes" 
+              value="yes"
+              name="yes/no">
+            </label>
+            <label for="no">No
+                <input 
+                 type="radio" 
+                 id="no" 
+                 value="no"
+                   name="yes/no">
+              </label>
+               <button  type="submit" value="text" class="next" >Next Level</button>
+           </div>   
+        </form>
+       </section>
+</body>
+</html>

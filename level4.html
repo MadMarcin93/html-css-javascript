@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level4</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop preload="auto" src="music/song4.mp3" id="myaudio" ></audio>
+    <script>
+      var audio = document.getElementById("myaudio");
+      audio.volume = 0.1;
+    </script>
+    <section>
+        <h1 id="title2">Game Survey</h1>
+       </section>
+       <form action="level5.html">
+        <div class="survey">
+           <h2>What type of device do you use?</h2>
+          <label for="pc">
+            PC
+           <input 
+           type="checkbox" 
+           id="pc" 
+           value="1"
+           name="device">
+         </label>
+         <label for="ps">
+            Play Station
+             <input 
+              type="checkbox" 
+              id="ps" 
+              value="2"
+              name="device">
+           </label>
+           <label for="xbox">Xbox
+            <input 
+            type="checkbox" 
+            id="xbox" 
+            value="3"
+            name="device">
+          </label>
+          <label for="wii">Wii
+            <input 
+            type="checkbox" 
+            id="wii" 
+            value="4"
+            name="device">
+          </label>
+            <button  type="submit" value="text" class="next" >Next Level</button>
+        </div>   
+     </form>
+</body>
+</html>
